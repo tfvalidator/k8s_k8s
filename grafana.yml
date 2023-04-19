@@ -23,10 +23,10 @@ spec:
           annotations:
             kubernetes.io/ingress.class: nginx
           hosts:
-          - a8acf4c81a84b45419eaaf0b8b939e4f-759977394.us-east-1.elb.amazonaws.com
+          -  a8e564a4b8ed14f4e9d207a227cf77ed-1314344661.ca-central-1.elb.amazonaws.com
         grafana.ini:
           server:
-            root_url: http://a8acf4c81a84b45419eaaf0b8b939e4f-759977394.us-east-1.elb.amazonaws.com
+            root_url:  a8e564a4b8ed14f4e9d207a227cf77ed-1314344661.ca-central-1.elb.amazonaws.com
         resources:
           limits:
             cpu: 1000m
